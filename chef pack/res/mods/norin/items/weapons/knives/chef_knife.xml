@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<weapon>
+	<coreAttributes>
+    <authorTag><![CDATA[Small engraved lettering informs you that this knife was forged by 'Norin'.]]></authorTag>
+    
+		<value>3000</value> 
+    
+		<melee>true</melee>
+		<twoHanded>false</twoHanded>
+    
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[Chef's Knife]]></name>
+    <namePlural pluralByDefault="false"><![CDATA[Chef's Knives]]></namePlural> 
+    
+		<description><![CDATA[A comfortable chef's knife, with a blade made out of ethereal energy. It's enchanted to help enhance the user's precision.]]></description> 
+		<attackDescriptor>stab</attackDescriptor>
+		
+    <attackTooltipDescription>Strike out with your knife at [npc2.name].</attackTooltipDescription>
+		
+		<rarity>EPIC</rarity> 
+		
+    <equipText><![CDATA[[npc.Name] [npc.verb(unsheathe)] the knife, readying it for use.]]></equipText>
+		<unequipText><![CDATA[[npc.Name] [npc.verb(sheathe)] the knife before putting it away.]]></unequipText>
+		
+		<imageName>chef_knife_sheathed.svg</imageName> 
+		<imageEquippedName>chef_knife.svg</imageEquippedName>
+		
+		<damage>18</damage> 
+		
+		<arcaneCost>0</arcaneCost> 
+		
+		<damageVariance>LOW</damageVariance> 
+		
+		<availableDamageTypes>
+			<damageType>PHYSICAL</damageType>
+			<damageType>ICE</damageType>
+			<damageType>FIRE</damageType>
+			<damageType>POISON</damageType>
+		</availableDamageTypes>
+		
+		<spells/>
+		
+		<enchantmentLimit>5</enchantmentLimit>
+		<effects> 
+      <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="CRITICAL_CHANCE" timer="0"/>
+      <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="CRITICAL_CHANCE" timer="0"/>
+      <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="CRITICAL_CHANCE" timer="0"/>
+		</effects>
+		
+    <primaryColours values="JUST_STEEL"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="JUST_BLACK"/> 
+		<secondaryColoursDye values="ALL"/>
+		
+		<itemTags> 
+			<tag>SOLD_BY_VICKY</tag>
+			<tag>WEAPON_BLADE</tag>
+		</itemTags>
+		
+	</coreAttributes>
+
+	<hitDescriptions>
+		<hitText><![CDATA[
+		Thrusting out with [npc.her] knife, [npc.name] [npc.verb(make)] a precise slice at [npc2.namePos] chest; the enchanted blade passes through [npc2.her] torso to drain [npc2.her] energy!
+		]]></hitText>
+		<hitText><![CDATA[
+		Striking out at [npc2.name] with [npc.her] knife, [npc.name] [npc.verb(slice)] through [npc2.her] [npc2.arm] with the ethereal blade and [npc.verb(drain)] [npc2.her] energy!
+		]]></hitText>
+		<hitText><![CDATA[
+		With a quick step forwards, [npc.name] [npc.verb(lunge)] out at [npc2.name] with [npc.her] knife, sinking the ethereal blade into [npc2.her] shoulder and causing [npc2.herHim] to lose some energy!
+		]]></hitText>
+	</hitDescriptions>
+
+	<missDescriptions>
+		<missText><![CDATA[
+		Thrusting out with [npc.her] knife, [npc.name] [npc.verb(attempt)] to stab [npc2.name] in the chest, but [npc.verb(end)] up missing [npc2.herHim]!
+		]]></missText>
+		<missText><![CDATA[
+		Striking out at [npc2.name] with [npc.her] knife, [npc.name] [npc.verb(let)] out a frustrated cry as [npc.she] [npc.verb(miss)] [npc.her] target!
+		]]></missText>
+		<missText><![CDATA[
+		With a quick step forwards, [npc.name] [npc.verb(lunge)] out at [npc2.name] with [npc.her] knife, but [npc.she] [npc.verb(miss)] [npc.her] target!
+		]]></missText>
+	</missDescriptions>
+	
+</weapon>

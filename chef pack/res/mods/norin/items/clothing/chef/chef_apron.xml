@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAttributes>
+    <clothingAuthorTag><![CDATA[A small embroidered tag informs you that this apron was made by 'Norin'.]]></clothingAuthorTag>
+    
+		<value>500</value> 
+		
+		<determiner><![CDATA[a]]></determiner>
+		
+		<name><![CDATA[Chef's apron]]></name>
+		
+		<namePlural pluralByDefault="false"><![CDATA[Chef's aprons]]></namePlural> 
+		
+		<description><![CDATA[A traditional chef's apron made of thick cotton, with three large pockets.]]></description> 
+		
+		<physicalResistance>1</physicalResistance> 
+		
+		<femininity>ANDROGYNOUS</femininity>
+
+    <slot>TORSO_OVER</slot>
+
+    <rarity>RARE</rarity> 
+		
+		<clothingSet/> 
+		
+		<imageName>chef_apron.svg</imageName> 
+		
+		<imageEquippedName/> 
+		
+		<enchantmentLimit/>
+		
+		<effects/>
+
+    <blockedPartsList>
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+
+        <clothingAccessRequired>
+          <clothingAccess>HEAD</clothingAccess>
+        </clothingAccessRequired>
+
+        <blockedBodyParts/>
+
+        <clothingAccessBlocked/>
+
+        <concealedSlots/>
+      </blockedParts>
+
+      <blockedParts>
+        <displacementType>PULLS_UP</displacementType>
+
+        <clothingAccessRequired/>
+
+        <blockedBodyParts>
+          <bodyPart>BREASTS</bodyPart>
+          <bodyPart>NIPPLES</bodyPart>
+          <bodyPart>STOMACH</bodyPart>
+        </blockedBodyParts>
+
+        <clothingAccessBlocked>
+          <clothingAccess>CHEST</clothingAccess>
+          <clothingAccess>WAIST</clothingAccess>
+        </clothingAccessBlocked>
+
+        <concealedSlots values="CONCEALED_PARTIAL_TORSO"/>
+      </blockedParts>
+
+    </blockedPartsList>
+
+
+    <incompatibleSlots/> 
+		
+		<primaryColours>
+			<colour>CLOTHING_WHITE</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+    
+    <secondaryColours>
+      <colour>CLOTHING_BLACK</colour>
+    </secondaryColours>
+		<secondaryColoursDye values="ALL"/>
+    
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+		
+		<itemTags> 
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAttributes>
+
+  <replacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(put)] on a chef apron and [npc.verb(tie)] it around [npc.her] waist.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(put)] the chef apron over [npc2.namePos] head and [npc.verb(tie)] it around [npc2.her] waist.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(force)] the chef apron over [npc2.namePos] head and [npc.verb(tie)] it tightly around [npc2.her] waist.]]>
+    </otherRough>
+  </replacementText>
+
+  <displacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(untie)] [npc.her] chef apron before taking it off.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(untie)] [npc2.namePos] chef apron before taking it off.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(yank)] at [npc2.namePos] chef apron's knot before roughly pulling it off.]]>
+    </otherRough>
+  </displacementText>
+  
+</clothing>

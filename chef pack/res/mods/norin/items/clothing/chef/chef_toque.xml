@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAttributes>
+    <clothingAuthorTag><![CDATA[Small embroidered lettering informs you that this toque was made by 'Norin'.]]></clothingAuthorTag>
+    
+		<value>700</value> 
+		
+		<determiner><![CDATA[a]]></determiner>
+		
+		<name><![CDATA[Chef's toque]]></name>
+		
+		<namePlural pluralByDefault="false"><![CDATA[Chef's toques]]></namePlural> 
+		
+		<description><![CDATA[A chef's toque, meant to keep the wearer's hair from falling into their cooking.]]></description> 
+		
+		<physicalResistance>1</physicalResistance> 
+		
+		<femininity>ANDROGYNOUS</femininity> 
+		
+		<slot>HEAD</slot>
+		
+		<rarity>RARE</rarity> 
+		
+		<clothingSet/>
+    
+		<imageName>chef_toque.svg</imageName> 
+		
+		<imageEquippedName/> 
+		
+		<enchantmentLimit>5</enchantmentLimit>
+		
+		<effects/>
+		
+		<blockedPartsList> 
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType> 
+				
+				<clothingAccessRequired>
+					<clothingAccess>HEAD</clothingAccess>
+				</clothingAccessRequired>
+				
+				<blockedBodyParts/>
+				
+				<clothingAccessBlocked/>
+				
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+		
+		<incompatibleSlots/> 
+		
+		<primaryColours values="BLACK_OR_WHITE"/>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+		
+		<itemTags/>
+	</coreAttributes>
+
+	<replacementText type="REMOVE_OR_EQUIP">
+		<self>
+		  <![CDATA[[npc.Name] [npc.verb(put)] on the chef's toque.]]>
+		</self>
+		<other>
+		  <![CDATA[[npc.Name] [npc.verb(put)] the chef's toque onto [npc2.namePos] head.]]>
+		</other>
+		<otherRough>
+		  <![CDATA[[npc.Name] roughly [npc.verb(forces)] the chef's toque onto [npc2.namePos] head.]]>
+	  </otherRough>
+	</replacementText>
+
+	<displacementText type="REMOVE_OR_EQUIP">
+		<self>
+		  <![CDATA[[npc.Name] [npc.verb(take)] off [npc.her] chef's toque.]]>
+		</self>
+		<other>
+		  <![CDATA[[npc.Name] [npc.verb(take)] [npc2.namePos] chef's toque off.]]>
+		</other>
+		<otherRough>
+		  <![CDATA[[npc.Name] [npc.verb(grab)] [npc2.namePos] chef's toque and [npc.verb(pull)] it off.]]>
+		</otherRough>
+	</displacementText>
+	
+</clothing>
