@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAttributes>
+		<value>400</value> 
+		<determiner><![CDATA[a bundle of]]></determiner>
+		<name><![CDATA[arcane decorative rope]]></name>
+		<namePlural pluralByDefault="false">
+      <![CDATA[arcane decorative rope]]>
+    </namePlural> 
+    
+    <description><![CDATA[A bundle of rope specially enchanted to tie various body parts in decorative bondage.]]></description> 
+    
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity> 
+		
+		<equipSlots>
+			<slot>MOUTH</slot>
+			<slot>CHEST</slot>
+      <slot>STOMACH</slot>
+      <slot>GROIN</slot>
+		</equipSlots>
+		
+		<rarity>EPIC</rarity>
+    <clothingSet/>
+		
+	  <imageName>rope_bundle.svg</imageName>
+		
+		<imageEquippedName slot="MOUTH">rope_gag.svg</imageEquippedName>
+		<imageEquippedName slot="CHEST">rope_chest.svg</imageEquippedName>
+    <imageEquippedName slot="STOMACH">rope_corset.svg</imageEquippedName>
+    <imageEquippedName slot="GROIN">rope_crotch_drums.svg</imageEquippedName>
+		
+		<enchantmentLimit/>
+		
+		<effects/>
+		
+		<blockedPartsList slot="MOUTH">
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+        <clothingAccessRequired> 
+					<clothingAccess>MOUTH</clothingAccess>
+				</clothingAccessRequired>
+        <blockedBodyParts>
+					<bodyPart>MOUTH</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked/>
+			  <concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+
+    <blockedPartsList slot="CHEST">
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+        <clothingAccessRequired>
+          <clothingAccess>CHEST</clothingAccess>
+        </clothingAccessRequired>
+        <blockedBodyParts/>
+        <clothingAccessBlocked/>
+        <concealedSlots/>
+      </blockedParts>
+    </blockedPartsList>
+
+    <blockedPartsList slot="STOMACH">
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+        <clothingAccessRequired>
+          <clothingAccess>WAIST</clothingAccess>
+        </clothingAccessRequired>
+        <blockedBodyParts/>
+        <clothingAccessBlocked/>
+        <concealedSlots/>
+      </blockedParts>
+    </blockedPartsList>
+    <blockedPartsList slot="STOMACH">
+      <blockedParts>
+        <displacementType>SHIFTS_ASIDE</displacementType>
+        <clothingAccessRequired/>
+        <blockedBodyParts>
+          <bodyPart>ANUS</bodyPart>
+          <bodyPart>VAGINA</bodyPart>
+          <bodyPart>MOUND</bodyPart>
+        </blockedBodyParts>
+        <clothingAccessBlocked>
+          <clothingAccess>GROIN</clothingAccess>
+        </clothingAccessBlocked>
+        <concealedSlots/>
+      </blockedParts>
+    </blockedPartsList>
+
+    <blockedPartsList slot="GROIN">
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+        <clothingAccessRequired>
+          <clothingAccess>GROIN</clothingAccess>
+        </clothingAccessRequired>
+        <blockedBodyParts/>
+        <clothingAccessBlocked/>
+        <concealedSlots/>
+      </blockedParts>
+    </blockedPartsList>
+		
+		<incompatibleSlots slot="MOUTH"/>
+		<incompatibleSlots slot="CHEST"/>
+    <incompatibleSlots slot="STOMACH">
+      <slot>GROIN</slot>
+    </incompatibleSlots>
+    <incompatibleSlots slot="GROIN"/>
+		
+		<primaryColours values="ALL"/> 
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+    <tertiaryColoursDye/>
+		
+		<itemTags>
+      <tag>SOLD_BY_FINCH</tag>
+      <tag>ENABLE_SEX_EQUIP</tag>
+      <tag>TRANSPARENT</tag>
+    </itemTags>
+    <itemTags slot="MOUTH">
+      <tag>MUFFLES_SPEECH</tag>
+    </itemTags>
+    <itemTags slot="STOMACH">
+      <tag>REQUIRES_NO_PENIS</tag>
+    </itemTags>
+	</coreAttributes>
+
+
+	<replacementText slot="MOUTH" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(push)] the arcane rope against [npc.her] [npc.mouthColour], watching as it quickly ties itself into a gag.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(push)] the arcane rope against [npc2.namePos] [npc2.mouthColour], watching as it quickly ties itself into a gag.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(force)] the arcane rope against [npc2.namePos] [npc2.mouthColour], watching as it quickly ties itself into a tight gag.]]>
+		</otherRough>
+	</replacementText>
+	<displacementText slot="MOUTH" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(untie)] the rope gagging [npc.her], watching as it neatly bundles itself up.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(untie)] the rope gagging [npc2.name], watching as it neatly bundles itself up.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] [npc.verb(yank)] on the rope gagging [npc2.name], causing it to quickly untie before bundling itself up.]]>
+		</otherRough>
+	</displacementText>
+	
+  
+	<replacementText slot="CHEST" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc.her] [npc.breasts+], watching as it quickly ties itself into a decorative harness.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc2.namePos] [npc2.breasts+], watching as it quickly ties itself into a decorative harness.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(force)] the arcane rope against [npc2.namePos] [npc2.breasts+], watching as it tightly ties itself into a decorative harness.]]>
+		</otherRough>
+	</replacementText>
+	<displacementText slot="CHEST" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc.her] [npc.breasts+], watching as it neatly bundles itself up.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc2.namePos] [npc2.breasts+], watching as it neatly bundles itself up.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] [npc.verb(yank)] on the rope around [npc2.namePos] [npc2.breasts+], causing it to quickly untie before bundling itself up.]]>
+		</otherRough>
+	</displacementText>
+
+
+  <replacementText slot="STOMACH" type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc.her] stomach, watching as it quickly ties itself into a decorative corset.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc2.namePos] stomach, watching as it quickly ties itself into a decorative corset.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] roughly [npc.verb(force)] the arcane rope against [npc2.namePos] stomach, watching as it tightly ties itself into a decorative corset.]]>
+    </otherRough>
+  </replacementText>
+  <displacementText slot="STOMACH" type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc.her] stomach, watching as it neatly bundles itself up.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc2.namePos] stomach, watching as it neatly bundles itself up.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(yank)] on the rope around [npc2.namePos] stomach, causing it to quickly untie before bundling itself up.]]>
+    </otherRough>
+  </displacementText>
+  <replacementText slot="STOMACH" type="SHIFTS_ASIDE">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(pull)] a loose section of rope, watching as it ties itself around [npc.her] crotch.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(pull)] a loose section of rope, watching as it ties itself around [npc2.namePos] crotch.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(yank)] a loose section of rope, watching as it ties itself tightly around [npc2.namePos] crotch.]]>
+    </otherRough>
+  </replacementText>
+  <displacementText slot="STOMACH" type="SHIFTS_ASIDE">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(pull)] the rope around [npc.her] crotch, causing it to untie itself.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(pull)] the rope around [npc2.namePos] crotch, causing it to untie itself.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(yank)] on the rope around [npc2.namePos] crotch, causing it to quickly untie itself.]]>
+    </otherRough>
+  </displacementText>
+
+
+  <replacementText slot="GROIN" type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc.her] groin, watching as it quickly ties itself into a decorative harness.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(rest)] the arcane rope on [npc2.namePos] groin, watching as it quickly ties itself into a decorative harness.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] roughly [npc.verb(force)] the arcane rope against [npc2.namePos] groin, watching as it tightly ties itself into a decorative harness.]]>
+    </otherRough>
+  </replacementText>
+  <displacementText slot="GROIN" type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc.her] groin, watching as it neatly bundles itself up.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(untie)] the rope around [npc2.namePos] groin, watching as it neatly bundles itself up.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(yank)] on the rope around [npc2.namePos] groin, causing it to quickly untie before bundling itself up.]]>
+    </otherRough>
+  </displacementText>
+</clothing>
