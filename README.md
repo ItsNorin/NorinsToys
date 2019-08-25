@@ -13,7 +13,7 @@ Makes some items available in multiple slots.
 - Key Chain necklace can be on neck or wrist.
 - Clover Clamps can now be on nipples or vagina lips.
 
-[Download](https://github.com/ItsNorin/NorinsToys/releases/download/M0.1/multi-slot.upgrade.zip)
+[Download](https://github.com/ItsNorin/NorinsToys/releases/download/M0.2/multi-slot.upgrade_0.2.zip)
 
 ### Chef Pack
 [Download](https://github.com/ItsNorin/NorinsToys/releases/download/C0.1/chef.pack.zip)
