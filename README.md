@@ -4,11 +4,14 @@ Assorted items for [Lilith's Throne](https://github.com/Innoxia/liliths-throne-p
 ## Current Packs
 
 ### Multi-slot upgrade
-Makes some items avaliable in multiple slots.
+Makes some items available in multiple slots.
 
 #### This pack changes
 - Realistic Dildo now can also be inserted into mouth and anus
 - Leather Wrist Bracelets renamed to Leather Bracelets, can now also be equipped on ankles
+- Siren's Cloak can be equipped on over-torso or neck, for some reason.
+- Key Chain necklace can be on neck or wrist.
+- Clover Clamps can now be on nipples or vagina lips.
 
 [Download](https://github.com/ItsNorin/NorinsToys/releases/download/M0.1/multi-slot.upgrade.zip)
 

@@ -6,7 +6,9 @@ Installation: Copy the contents of the included "res" folder into the game's "re
               --== This pack changes ==--
 Realistic Dildo now can also be inserted into mouth and anus
 Leather Wrist Bracelets renamed to Leather Bracelets, can now also be equipped on ankles
-
+Siren's Cloak can be equipped on over-torso or neck, for some reason.
+Key Chain necklace can be on neck or wrist.
+Clover Clamps can now be on nipples or vagina lips.
 
 
 GitHub: https://github.com/ItsNorin/
