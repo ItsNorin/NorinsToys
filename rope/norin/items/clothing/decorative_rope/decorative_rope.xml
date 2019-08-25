@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <clothing>
 	<coreAttributes>
+    <clothingAuthorTag><![CDATA[Small embroidered lettering informs you that this rope was enchanted by 'Norin'.]]></clothingAuthorTag>
 		<value>400</value> 
 		<determiner><![CDATA[a bundle of]]></determiner>
 		<name><![CDATA[arcane decorative rope]]></name>
