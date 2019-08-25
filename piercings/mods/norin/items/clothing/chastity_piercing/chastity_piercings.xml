@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+    <clothingAuthorTag><![CDATA[Small engraved text informs you that this set of piercings was made by 'Norin'.]]></clothingAuthorTag>
+		<value>950</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[chastity piercing set]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[chastity piercing sets]]></namePlural>
+		<description><![CDATA[A set of piercings designed to be able to be locked, keeping the wearer's vagina tightly shut.]]></description>
+    
+		<physicalResistance>0</physicalResistance>
+		<femininity>FEMININE</femininity>
+		<slot>PIERCING_VAGINA</slot>
+		<rarity>EPIC</rarity>
+		<clothingSet/>
+    
+		<imageName>chastity_piercings_locked.svg</imageName>
+		<imageEquippedName/>
+    
+		<enchantmentLimit/>
+		<effects>
+      <effect itemEffectType="CLOTHING" limit="0" potency="MINOR_BOOST" primaryModifier="CLOTHING_SEALING" secondaryModifier="ARCANE_BOOST" timer="0"/>
+		</effects>
+    
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+					<bodyPart>VAGINA</bodyPart>
+				</blockedBodyParts>
+        <clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+    
+		<incompatibleSlots/>
+    
+		<primaryColours>
+      <colour>CLOTHING_SILVER</colour>
+    </primaryColours>
+		<primaryColoursDye values="METAL"/>
+		<secondaryColours/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+    
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+			<tag>ENABLE_SEX_EQUIP</tag>
+			<tag>TRANSPARENT</tag>
+		</itemTags>
+    
+	</coreAtributes>
+
+  <replacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(insert)] various piercings into [npc.her] [npc.vaginaColourSecondary] [npc.vagina] lips, then [npc.verb(thread)] a lock through them, clicking it shut.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(insert)] various piercings into [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips, then [npc.verb(thread)] a lock through them, clicking it shut.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] quickly [npc.verb(insert)] various piercings into [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips, then [npc.verb(force)] a lock through them, clicking it shut.]]>
+    </otherRough>
+  </replacementText>
+  <displacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc.her] [npc.vaginaColourSecondary] [npc.vagina] lips tightly shut, then [npc.verb(remove)] the various piercings.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips tightly shut, then [npc.verb(remove)] the various piercings.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips tightly shut, then roughly [npc.verb(pull)] out the various piercings.]]>
+    </otherRough>
+  </displacementText>
+	
+</clothing>

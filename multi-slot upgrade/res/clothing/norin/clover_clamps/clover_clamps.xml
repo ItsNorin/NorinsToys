@@ -2,11 +2,12 @@
 
 <clothing>
   <coreAttributes>
+    <clothingAuthorTag><![CDATA[Small engraved text informs you that these clamps were made by 'Norin'.]]></clothingAuthorTag>
     <value>540</value>
     <determiner><![CDATA[a pair of]]></determiner>
     <name><![CDATA[clover clamps]]></name>
     <namePlural pluralByDefault="true"><![CDATA[clover clamps]]></namePlural>
-    <description><![CDATA[A pair of metal clover clamps designed to tightly pinch onto the wearer's nipples. The attached weights pull down to apply a constant, painful pressure.]]></description>
+    <description><![CDATA[A pair of metal clover clamps designed to tightly pinch onto the wearer. The attached weights pull down to apply a constant, painful pressure.]]></description>
     
     <physicalResistance>0</physicalResistance>
     <femininity>ANDROGYNOUS</femininity>

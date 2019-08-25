@@ -2,6 +2,7 @@
 
 <clothing>
   <coreAttributes>
+    <clothingAuthorTag><![CDATA[Small moulded text informs you that this toy was made by 'Norin'.]]></clothingAuthorTag>
     <value>250</value> <!--10 flames = £1 ~ $1.5-->
     <determiner><![CDATA[a]]></determiner>
     <name><![CDATA[realistic dildo]]></name>
