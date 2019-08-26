@@ -121,9 +121,13 @@
     </itemTags>
     <itemTags slot="MOUTH">
       <tag>MUFFLES_SPEECH</tag>
+      <tag>ENABLE_SEX_EQUIP</tag>
+      <tag>TRANSPARENT</tag>
     </itemTags>
     <itemTags slot="STOMACH">
       <tag>REQUIRES_NO_PENIS</tag>
+      <tag>ENABLE_SEX_EQUIP</tag>
+      <tag>TRANSPARENT</tag>
     </itemTags>
 	</coreAttributes>
 
